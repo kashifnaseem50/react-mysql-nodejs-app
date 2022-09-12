@@ -11,10 +11,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('Hi There')
+    res.send({data:"hello"})
   });
 
-  
+
   // app.get('/get', (req, res) => {
   //   const SelectQuery = " SELECT * FROM books_reviews";
   //   db.query(SelectQuery, (err, result) => {
@@ -31,4 +31,4 @@ app.get('/', (req, res) => {
   //   })
   // })
 
-  app.listen('3001', () => { })
+  app.listen('3002', () => { })
