@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "name": "react-mysql-nodejs-app",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashifnaseem50/react-mysql-nodejs-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashifnaseem50/react-mysql-nodejs-app/issues"
+  },
+  "homepage": "https://github.com/kashifnaseem50/react-mysql-nodejs-app#readme"
+}
