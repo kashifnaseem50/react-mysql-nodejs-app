@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
     res.send('Hi There')
   });
 
-
+  
   // app.get('/get', (req, res) => {
   //   const SelectQuery = " SELECT * FROM books_reviews";
   //   db.query(SelectQuery, (err, result) => {
